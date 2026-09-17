@@ -1,7 +1,7 @@
-function Todo ({ text }) {
+function Todo () {
   return (
     <div>
-      <h2>{text}</h2>
+      <h2>Finish Frontend Simplified</h2>
       <button>Delete</button>
     </div> )
 }

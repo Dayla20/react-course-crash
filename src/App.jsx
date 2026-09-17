@@ -6,9 +6,9 @@ function App() {
   return (
     <div>
        <Title />
-       <Todo text="Finish Frontend Simplified" />
-       <Todo text="Finish the interview section" />
-       <Todo text="Land $120K job" />
+       <Todo />
+       <Todo />
+       <Todo />
     </div>
   );
 }
