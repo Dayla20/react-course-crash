@@ -1,8 +1,14 @@
-function Todo ({ text }) {
+import './Todo.css';
+
+function Todo (props) {
+  function deleteTodo () {
+    console.log('deleteTodo()')
+  }
+ 
   return (
-    <div>
-      <h2>{text}</h2>
-      <button>Delete</button>
+    <div className='todo'>
+      <h2>{props.title}</h2>
+      <button onClick={deleteTodo}>Delete</button>
     </div> )
 
 }
